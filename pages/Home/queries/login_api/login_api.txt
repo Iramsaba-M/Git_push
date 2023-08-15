@@ -1,0 +1,4 @@
+{
+	"identifier":"input1.text",
+	"password":"input2.password"
+}

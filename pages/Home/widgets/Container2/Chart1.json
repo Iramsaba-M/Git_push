@@ -1,0 +1,104 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "mobileBottomRow": 48,
+    "widgetName": "Chart1",
+    "allowScroll": false,
+    "displayName": "Chart",
+    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 19,
+    "bottomRow": 47,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 17,
+    "chartData": {"1j0pifhphm": {
+        "data": "[\n  {\n    \"x\": \"JAN\",\n    \"y\": 50\n  },\n  {\n    \"x\": \"FEB\",\n    \"y\": 100\n  },\n  {\n    \"x\": \"MAR\",\n    \"y\": 10\n  },\n  {\n    \"x\": \"APR\",\n    \"y\": 60\n  },\n  {\n    \"x\": \"MAY\",\n    \"y\": 40\n  },\n  {\n    \"x\": \"JUN\",\n    \"y\": 100\n  }\n \n]",
+        "color": "#1e40af",
+        "seriesName": "2023"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "parentColumnSpace": 14.5419921875,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "boxShadow"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "legendIconSides": "4",
+                "canvasPadding": "0",
+                "captionAlignment": "center",
+                "yAxisNameFontSize": "14",
+                "caption": "Sales Report",
+                "labelFontColor": "#716e6e",
+                "chartLeftMargin": "20",
+                "captionFontSize": "24",
+                "chartTopMargin": "10",
+                "theme": "fusion",
+                "legendIconAlpha": "100",
+                "chartBottomMargin": "10",
+                "labelFontSize": "12",
+                "xAxisNameFontColor": "#716e6e",
+                "yAxisNameFontColor": "#716e6e",
+                "captionFontColor": "#231F20",
+                "yAxisValueFontColor": "#716e6e",
+                "captionPadding": "20",
+                "yAxisName": "Revenue($)",
+                "legendIconBgAlpha": "100",
+                "xAxisName": "Product Line",
+                "alignCaptionWithCanvas": 1,
+                "chartRightMargin": "40",
+                "legendPosition": "top",
+                "xAxisNameFontSize": "14",
+                "yAxisValueFontSize": "12"
+            }
+        }
+    },
+    "key": "17po1s5xc1",
+    "isDeprecated": false,
+    "rightColumn": 24,
+    "widgetId": "vptzwg9ofk",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "xvpjqffltt",
+    "labelOrientation": "auto",
+    "tags": ["Display"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 16,
+    "responsiveBehavior": "fill",
+    "yAxisName": "",
+    "originalTopRow": 19,
+    "chartName": "Sales Report",
+    "borderRadius": "0.375rem",
+    "mobileLeftColumn": 0,
+    "xAxisName": "",
+    "originalBottomRow": 47,
+    "chartType": "COLUMN_CHART"
+}
